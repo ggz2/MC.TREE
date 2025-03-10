@@ -1,3 +1,3 @@
-This is a project containing 4 Eaglercraft versions that I have downloaded.
+This is a project containing 4 Eaglercraft versions that I have.
 Just click one of the buttons at the top right on the website.
 Play that version that you picked.
