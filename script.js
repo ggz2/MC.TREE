@@ -1,0 +1,5 @@
+console.log("Sup I'm TD0415")
+console.log("I'm the maker of this site")
+console.log("I didn't make the EaglerCraft versions")
+console.log("I made the main menu and linked them all up.")
+console.log("-TD0415")
