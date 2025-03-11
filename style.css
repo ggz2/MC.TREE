@@ -8,6 +8,11 @@ body{
   text-align: center;
 }
 
+p{
+  color: white;
+  font-size: 150px;
+}
+
 button{
   background-color: #104006;
   color: white;
