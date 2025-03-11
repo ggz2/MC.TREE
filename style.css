@@ -1,0 +1,19 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: #104006;
+  text-align: center;
+  padding: 70px 0;
+  text-align: center;
+  color: white;
+  font-size: 150px;
+}
+
+button{
+  background-color: #104006;
+  color: white;
+  font-size: 50px;
+}
