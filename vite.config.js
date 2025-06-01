@@ -8,3 +8,6 @@ export default defineConfig({
     hmr: true, // Change this line to false disable auto-refreshing.
   }
 })
+
+
+console.log("Vite")
