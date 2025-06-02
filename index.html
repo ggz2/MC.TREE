@@ -89,6 +89,24 @@
     });
             console.log("Updated May 31st 2025")
 </script>
+        <p>You are visitor number: <span id="visitor-count"></span></p>
+    <script>
+        function getVisitorCount() {
+            let count = localStorage.getItem('visitorCount');
+            if (count === null) {
+                count = 1;
+            } else {
+                count = parseInt(count) + 1;
+            }
+            localStorage.setItem('visitorCount', count);
+            return count;
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const visitorCountSpan = document.getElementById('visitor-count');
+            visitorCountSpan.textContent = getVisitorCount();
+        });
+    </script>
 
     </body>
 </html>
