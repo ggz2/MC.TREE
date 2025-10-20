@@ -1,44 +1,48 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
+  background-color: #104006;
+  text-align: center;
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  margin: 20px;
 }
 
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
+/* Style for the menu container */
+nav.menu {
+  margin-top: 30px;
 }
 
-.menu ul {
+/* Style for the list of links */
+ul.menu-list {
   list-style: none;
   padding: 0;
-  margin: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
 }
 
-.menu li {
-  margin: 5px;
+/* Style for each list item */
+li.menu-item {
+
 }
 
-.menu a {
-  display: inline-block;
+/* Style for links styled as buttons */
+a.menu-link {
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #104006; /* same as body background for seamless look */
   color: white;
+  font-size: 50px;
   text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.3s;
+  border: 2px solid white;
+  border-radius: 10px;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
-.menu a:hover {
-  background-color: #0056b3;
-}
-
-/* Optional: Highlight current page */
-.menu a.active {
-  background-color: #28a745;
+/* Hover effect for links */
+a.menu-link:hover {
+  background-color: #0d350f;
+  transform: scale(1.05);
 }
