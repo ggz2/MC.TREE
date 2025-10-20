@@ -5,12 +5,6 @@
   <!-- Minecraft font from Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Minecraft&display=swap" rel="stylesheet">
   <style>
-    /* Animate background to slowly move */
-    @keyframes scrollBackground {
-      0% { background-position: 0 0; }
-      100% { background-position: 0 -100px; }
-    }
-
     html {
       height: 100%;
       width: 100%;
@@ -24,12 +18,11 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      /* Background with moving image */
+      /* Static background image */
       background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.1&auto=format&fit=crop&w=1920&q=80'); /* replace with your image URL */
       background-size: cover;
-      background-repeat: repeat-y;
+      background-repeat: no-repeat;
       background-attachment: fixed; /* Keeps background static when scrolling */
-      animation: scrollBackground 60s linear infinite;
     }
 
     /* Container for buttons, arranged outward */
