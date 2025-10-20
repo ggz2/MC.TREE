@@ -52,14 +52,12 @@
       background-position: center;
       border: 4px solid white;
       border-radius: 15px;
-      box-shadow: 0 0 20px #000;
-      transition: transform 0.2s, box-shadow 0.2s;
+      /* Removed shadow for a cleaner look */
+      /* Removed hover scaling to keep size constant */
+      transition: none; /* no transition for size or shadow */
     }
 
-    a.button:hover {
-      transform: scale(1.05);
-      box-shadow: 0 0 30px #fff;
-    }
+    /* Removed hover effects to keep buttons static and without shadow effects */
 
     /* Optional: Add a glow or text shadow for better readability */
     a.button span {

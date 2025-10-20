@@ -1,3 +1,4 @@
+console.log("Model: e copper")
 console.log("Model: e premium maxed")
 console.log("Model: e premium++")
 console.log("Model: e premium+")
