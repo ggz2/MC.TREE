@@ -1,3 +1,5 @@
+console.log("Model: e premium++")
+console.log("Model: e premium+")
 console.log("Model: e premium")
 console.log("Model: e air nano +")
 console.log("Model: e air nano")
