@@ -2,23 +2,97 @@
 <html>
 <head>
   <title>MC.TREE Menu</title>
+  <!-- Minecraft font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Minecraft&display=swap" rel="stylesheet">
+  <style>
+    /* Animate background to slowly move */
+    @keyframes scrollBackground {
+      0% { background-position: 0 0; }
+      100% { background-position: 0 -100px; }
+    }
+
+    html {
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      margin: 0;
+      height: 100%;
+      width: 100%;
+      font-family: 'Minecraft', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* Background with moving image */
+      background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.1&auto=format&fit=crop&w=1920&q=80'); /* replace with your image URL */
+      background-size: cover;
+      background-repeat: repeat-y;
+      animation: scrollBackground 60s linear infinite;
+    }
+
+    /* Container for buttons, centered */
+    .menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+      background-color: rgba(16, 64, 6, 0.7); /* semi-transparent overlay for readability */
+      border-radius: 15px;
+    }
+
+    /* Style for each button */
+    a.button {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 50px;
+      text-decoration: none;
+      color: white;
+      font-family: 'Minecraft', sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1612831455542-8b1b2a4f0a1a?ixlib=rb-4.0.1&auto=format&fit=crop&w=1920&q=80'); /* replace with your button background image */
+      background-size: cover;
+      background-position: center;
+      border: 4px solid white;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #000;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    a.button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px #fff;
+    }
+
+    /* Optional: Add a glow or text shadow for better readability */
+    a.button span {
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    /* Responsive adjustments */
+    @media(max-width: 768px) {
+      a.button {
+        font-size: 30px;
+        padding: 10px 20px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <nav class="menu">
-    <ul class="menu-list">
-      <li class="menu-item"><a class="menu-link" href="Indev.html">Run Indev</a></li>
-      <li class="menu-item"><a class="menu-link" href="1.2.5.html">Beta 1.2.5</a></li>
-      <li class="menu-item"><a class="menu-link" href="1.2.6.html">Beta 1.2.6</a></li>
-      <li class="menu-item"><a class="menu-link" href="1.3.html">Beta 1.3</a></li>
-      <li class="menu-item"><a class="menu-link" href="1.7.3.html">Beta 1.7.3</a></li>
-      <li class="menu-item"><a class="menu-link" href="1.5.2.html">1.5.2</a></li>
-      <li class="menu-item"><a class="menu-link" href="1.8.html">1.8</a></li>
-      <li class="menu-item"><a class="menu-link" href="1.9.4.html">1.9.4</a></li>
-      <li class="menu-item"><a class="menu-link" href="DragonX.html">DragonX</a></li>
-      <li class="menu-item"><a class="menu-link" href="WurstX.html">WurstX</a></li>
-      <li class="menu-item"><a class="menu-link" href="tuff1.12.2.html">Tuff 1.12.2</a></li>
-    </ul>
-  </nav>
+  <div class="menu">
+    <a class="button" href="Indev.html"><span>Run Indev</span></a>
+    <a class="button" href="1.2.5.html"><span>Beta 1.2.5</span></a>
+    <a class="button" href="1.2.6.html"><span>Beta 1.2.6</span></a>
+    <a class="button" href="1.3.html"><span>Beta 1.3</span></a>
+    <a class="button" href="1.7.3.html"><span>Beta 1.7.3</span></a>
+    <a class="button" href="1.5.2.html"><span>1.5.2</span></a>
+    <a class="button" href="1.8.html"><span>1.8</span></a>
+    <a class="button" href="1.9.4.html"><span>1.9.4</span></a>
+    <a class="button" href="DragonX.html"><span>DragonX</span></a>
+    <a class="button" href="WurstX.html"><span>WurstX</span></a>
+    <a class="button" href="tuff1.12.2.html"><span>Tuff 1.12.2</span></a>
+  </div>
+
   <script type="module" src="script.js"></script>
 </body>
 </html>
