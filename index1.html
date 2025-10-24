@@ -25,17 +25,22 @@
       background-attachment: fixed; /* Keeps background static when scrolling */
     }
 
-    /* Container for buttons, arranged outward */
+    /* Style for the menu container */
     .menu {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      background-image: url('bk.jpeg');
       gap: 30px;
       padding: 40px;
       background-color: rgba(16, 64, 6, 0.7); /* semi-transparent overlay for readability */
       border-radius: 15px;
       max-width: 1200px;
       width: 90%;
+
+      /* Add background image */
+      background-image: url('bk2.webp'); /* Replace with your image URL */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: contain; /* Scale the image to fit inside the container */
+      background-position: center; /* Center the background image */
     }
 
     /* Style for each button */
