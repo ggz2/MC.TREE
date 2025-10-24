@@ -1,3 +1,5 @@
+alert("Model: e copper II")
+console.log("Model: e copper II")
 console.log("Model: e copper I")
 console.log("Model: e copper++")
 console.log("Model: e copper+")
