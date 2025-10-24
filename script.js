@@ -1,4 +1,5 @@
-alert("Model: e copper III")
+alert("Model: e aluminum")
+console.log("Model: e aluminum")
 console.log("Model: e copper III")
 console.log("Model: e copper II")
 console.log("Model: e copper I")
