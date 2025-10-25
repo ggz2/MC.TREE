@@ -1,4 +1,4 @@
-alert("Model: e aluminum I")
+console.log("Model: e aluminum II")
 console.log("Model: e aluminum I")
 console.log("Model: e aluminum+++")
 console.log("Model: e aluminum++")
