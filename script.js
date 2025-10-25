@@ -1,3 +1,5 @@
+alert("welcome")
+console.log("Model: e aluminum III")
 console.log("Model: e aluminum II")
 console.log("Model: e aluminum I")
 console.log("Model: e aluminum+++")
