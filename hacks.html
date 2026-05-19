@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>menu</title>
+  <!-- Minecraft font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="new.webp">
+  <style>
+    html {
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      margin: 0;
+      height: 100%;
+      width: 100%;
+      font-family: 'Rubik Pixels', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* Static background image */
+      background-image: url('bk.gif'); /* replace with your image URL */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* Keeps background static when scrolling */
+    }
+
+    /* Style for the menu container */
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      padding: 40px;
+      background-color: rgba(47, 7, 107, 0.5); /* semi-transparent overlay for readability */
+      border-radius: 15px;
+      max-width: 1200px;
+      width: 90%;
+
+
+    }
+
+    /* Style for each button */
+    a.button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      font-size: 50px;
+      text-decoration: none;
+      color: white;
+      font-family: 'Rubik Pixels', sans-serif;
+      background-size: cover;
+      background-position: center;
+      border: 4px solid white;
+      border-radius: 15px;
+      /* Removed shadow for a cleaner look */
+      /* Removed hover scaling to keep size constant */
+      transition: none; /* no transition for size or shadow */
+    }
+
+    /* Removed hover effects to keep buttons static and without shadow effects */
+
+    /* Optional: Add a glow or text shadow for better readability */
+    a.button span {
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    /* Responsive adjustments */
+    @media(max-width: 768px) {
+      a.button {
+        font-size: 30px;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <a class="button" href="DragonX.html"><span>DragonX</span></a>
+    <a class="button" href="WurstX.html"><span>WurstX</span></a>
+    <a class="button" href="tuff1.12.2.html"><span>Tuff 1.12.2</span></a>
+    <a class="button" href="Kiwi-V1.0.9-WASM.html"><span>Kiwi 1.0.9</span></a>
+    <a class="button" href="MacerClient.html"><span>MacerClient</span></a>
+    <a class="button" href="DragonX_International.html"><span>DragonX International</span></a>
+    <a class="button" href="Old AutoClient.html"><span>Old AutoClient</span></a>
+    <a class="button" href="AutoClient.html"><span>AutoClient</span></a>
+    <a class="button" href="q13xClient.html"><span>q13xClient</span></a>
+  </div>
+
+  <script type="module" src="script.js"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9471290641013835"
+     crossorigin="anonymous"></script>
+</body>
+</html>
